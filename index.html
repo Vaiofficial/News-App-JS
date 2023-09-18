@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>News App</title>
+</head>
+<body>
+
+    <!-- Nav Bar -->
+    <nav>
+        <div class="main-nav container flex">
+            <!-- logo -->
+            <a href="" class="company-logo">
+                <img src="./Assests/VTALKS.png" alt="company logo">
+            </a>
+
+            <!-- Nav links -->
+            <div class="nav-links">
+                <ul class="flex">
+                    <li class="hover-link nav-item">Cricket</li>
+                    <li class="hover-link nav-item">Politics</li>
+                    <li class="hover-link nav-item">Education</li>
+                </ul>
+            </div>
+            
+            <!-- Search Bar -->
+
+            <div class="search-bar flex">
+                <input type="text" placeholder="e.g. Tollywood" class="news-input"> 
+                <button class="search-button">Search</button>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- main content of the website -->
+    <main>
+        <div class="cards-container container flex" id="cards-container">
+            
+        </div>
+    </main>
+
+    <!-- Hmlog ko dynamically multiple card dikhane hote hai so for that case template is best -->
+    <!-- actually jitne bhi article aarhe hai api se utne template hame banana hai and main ke cards container hai usme append karte jana hai.-->
+
+    <template id="template-news-card">
+        <!-- A card is divided into 2 parts card header where image is present and card content where title , description and more. -->
+
+        <div class="card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">This is the Title</h3>
+                <h6 class="news-source" id="news-source">End Gadget 26/08/2023</h6>
+                <p class="news-desc" id="news-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe quis voluptatum quisquam vitae doloremque facilis molestias quae ratione cumque!</p>
+            </div>
+        </div>
+    </template>
+
+<script src="main.js"></script>
+</body>
+</html>
