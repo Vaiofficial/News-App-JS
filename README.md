@@ -21,7 +21,7 @@ This simple news app is built using JavaScript and the Open News API. The app al
 - JavaScript
 - HTML
 - CSS
-- [Open News API](https://openai.com/api)
+- [News API](https://newsapi.org/)
 
 ## Setup
 
@@ -35,7 +35,7 @@ This simple news app is built using JavaScript and the Open News API. The app al
 
 3. Configure the Open News API:
 
-   - Visit the [Open News API](https://openai.com/api) website and sign up for an API key.
+   - Visit the [News API](https://newsapi.org/) website and sign up for an API key.
    - In your project folder, create a file named `config.js`.
    - Inside `config.js`, store your API key as follows:
 
@@ -66,7 +66,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-- [Open News API](https://openai.com/api) for providing the news data.
+- [News API](https://newsapi.org/) for providing the news data.
 
 ---
 
