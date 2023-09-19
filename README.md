@@ -6,7 +6,7 @@ Certainly! Here's a README template for your news app project:
 
 ## Overview
 
-This is a simple news app built using JavaScript and the Open News API. The app allows users to view and search for news articles from various sources. It also includes navigation with categories to help users find news on specific topics.
+This simple news app is built using JavaScript and the Open News API. The app allows users to view and search for news articles from various sources. It also includes navigation with categories to help users find news on specific topics.
 
 ## Features
 
@@ -28,7 +28,7 @@ This is a simple news app built using JavaScript and the Open News API. The app 
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/Vaiofficial/News-App-JS/news-app.git
+   git clone https://github.com/Vaiofficial/News-App-JS.git
    ```
 
 2. Open the project folder in your code editor.
