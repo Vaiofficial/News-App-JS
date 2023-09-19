@@ -28,7 +28,7 @@ This is a simple news app built using JavaScript and the Open News API. The app 
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/news-app.git
+   git clone https://github.com/Vaiofficial/News-App-JS/news-app.git
    ```
 
 2. Open the project folder in your code editor.
@@ -40,7 +40,7 @@ This is a simple news app built using JavaScript and the Open News API. The app 
    - Inside `config.js`, store your API key as follows:
 
      ```javascript
-     const apiKey = 'YOUR_API_KEY_HERE';
+     const apiKey = 'f17dda9260a843d7887ea8af2260d5a2';
      ```
 
 4. Open `index.html` in your browser or host the project on a web server.
@@ -62,7 +62,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## Author
 
 - Your Name
-- GitHub: [Your GitHub Profile](https://github.com/your-username)
+- GitHub: [P VAIBHAV](https://github.com/Vaiofficial)
 
 ## Acknowledgments
 
@@ -70,4 +70,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Feel free to customize this README to include any additional information or specific details about your project. Make sure to replace placeholders like `your-username`, `YOUR_API_KEY_HERE`, and add any additional sections or acknowledgments as needed.
+Feel free to customize this README to include any additional information or specific details about your project. Make sure to replace placeholders like `your-username`, `f17dda9260a843d7887ea8af2260d5a2`, and add any additional sections or acknowledgements as needed.
