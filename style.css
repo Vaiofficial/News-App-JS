@@ -48,13 +48,17 @@ li{
 }
 
 nav{
-    background-color: #ecf59a;
-    box-shadow: 0 0 4px black;
+    background-color: #f1f2f6;
+    box-shadow: 0 0 4px rgb(138, 137, 137);
     position: fixed;
     top: 0;
     z-index: 99;
     left: 0;
     right: 0;
+}
+
+.nav-item.active{
+    color: var(--accent-color);
 }
 
 .main-nav{
@@ -155,4 +159,34 @@ main{
 
 .news-source{
     margin-block: 12px;
+}
+
+
+@media(max-width:790px){
+
+    .cards-container{
+        flex-direction: column;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .card-header img{
+        object-fit: inherit;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .news-input{
+        width: 80px;
+    }
+
+    .search-button{
+        padding: 8px 8px;
+    }
+
+    .nav-links ul{
+        font-size: 15px;
+    }
 }
